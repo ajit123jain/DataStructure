@@ -10,4 +10,21 @@ Operations :   Push() -  O(1)
                Top()  - O(1)
                Print() - O(Top)
                Isempty() - O(1)
+
+      A. array 
+      B.Linklist  :
+                Each node ahs its data and address of the next node.
+                unlike arrays linklist doesn't require contiguous memory.
+                TO maintain the property of stack each operation O(1)
+                insert node at the beginning of linklist and 
+                delete node at the beginning of the linklist. 
+                
+                But if You insert and delete form last node of link list 
+                it will take time O(n) in both operation.
+                Here is we don't have problem of overflow but we need extra memory for address of next node.
+                
+  Use of stack :
+       Reverse of a string
+       Reverse of a linklist 
+       
                               
