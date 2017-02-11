@@ -1,0 +1,13 @@
+Stack is ADT .
+Stack has many applications.
+    1.function calls recursion
+    2.undo in an editor.
+    3.Balance parenthesis
+
+Implementations :  1. we can implement it two ways A)Arrays   B).List
+Operations :   Push() -  O(1)
+               Pop()  - O(1)
+               Top()  - O(1)
+               Print() - O(Top)
+               Isempty() - O(1)
+                              
